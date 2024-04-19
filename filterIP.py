@@ -1,7 +1,7 @@
 import re
 
 # 读取文件
-# data = "C:\\Users\\17993\Desktop\\filterIP\\ip.txt"
+# data = "C:\\Users\\Username\Desktop\\filterIP\\ip.txt"
 data = "ip.txt"
 with open(data, "r+", encoding="utf-8") as f:
     ip_raw = f.readlines()
